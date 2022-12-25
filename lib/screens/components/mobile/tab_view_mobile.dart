@@ -26,7 +26,6 @@ class TabViewMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
-    var height = MediaQuery.of(context).size.height;
 
     return ValueListenableBuilder<int>(
       valueListenable: selectedTab,
@@ -108,7 +107,7 @@ class TabViewMobile extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 50, right: 40),
+                        padding: const EdgeInsets.only(top: 70, right: 40),
                         child: Row(
                           children: [
                             Text(
