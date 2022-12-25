@@ -72,10 +72,12 @@ class TabViewDesktop extends StatelessWidget {
                                     height: 0.1,
                                   ),
                                 ),
-                                Text(
-                                  tabViewConstants.stepOneText,
-                                  style: context.textTheme.bodyText1?.copyWith(
-                                    textBaseline: TextBaseline.alphabetic,
+                                SizedBox(
+                                  width: 400,
+                                  child: Text(
+                                    tabViewConstants.stepOneText,
+                                    style: context.textTheme.bodyText1,
+                                    maxLines: 3,
                                   ),
                                 ),
                               ],
@@ -126,9 +128,13 @@ class TabViewDesktop extends StatelessWidget {
                                   height: 0.3,
                                 ),
                               ),
-                              Text(
-                                tabViewConstants.stepTwoText,
-                                style: context.textTheme.bodyText1,
+                              SizedBox(
+                                width: 400,
+                                child: Text(
+                                  tabViewConstants.stepTwoText,
+                                  style: context.textTheme.bodyText1,
+                                  maxLines: 3,
+                                ),
                               ),
                             ],
                           ),
@@ -173,9 +179,13 @@ class TabViewDesktop extends StatelessWidget {
                                     height: 0.8,
                                   ),
                                 ),
-                                Text(
-                                  tabViewConstants.stepThreeText,
-                                  style: context.textTheme.bodyText1,
+                                SizedBox(
+                                  width: 400,
+                                  child: Text(
+                                    tabViewConstants.stepThreeText,
+                                    style: context.textTheme.bodyText1,
+                                    maxLines: 3,
+                                  ),
                                 ),
                               ],
                             ),
